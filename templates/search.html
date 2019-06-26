@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body style="display: flex; flex-direction: column; margin: 0px">
+    <nav style="display: flex; flex-direction: row; align-items: flex-end; height: 3vmax; padding: 2vmax 4vmax; border-bottom: 0.5px solid #545454">
+      {% load static %}
+      <img src="{% static 'images/solr.png'%}" style='height: 3vmax' />
+      <form style="display: flex; flex-direction: row; justify-content: space-between; height: 80%; width: 30vmax; margin-left: 2vmax" method="POST">
+          {%csrf_token%}
+          <input style="width: 70%; border-radius: 20px; border: 0px; outline: none; padding: 0 2.5%; background-color: #e6e6e6; font-size: 1vmax" name="query" id="query" value={{query}}>
+          <button style="width: 20%; height: 100%; margin: 0; border-radius: 20px; outline: none; padding: 0; font-size: 1vmax; cursor: pointer">Search</button>
+        </form>
+    </nav>
+    <section style="display: flex; flex-direction: column; margin: 1vmax 12vmax">
+
+      {% for r in result %}
+      <div style="margin: 1vmax 0">
+        <h1 style="margin: 0vmax"><a href={{r.url}} style="text-decoration: none; color: #1A0DAB; font-family: arial; font-weight: normal; font-size: 1.5vmax">{{ r.title }}</a></h1>
+        <p style="margin: 5px 0 0 0; width: 45vmax; line-height: 1.2; font-family: arial; font-size: 1vmax; color:#545454">{{ r.url }}</p>
+      </div>
+    {% endfor %}
+    
+    </section>
+  </body>
+</html>
