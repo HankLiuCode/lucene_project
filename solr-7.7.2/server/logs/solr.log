@@ -1,0 +1,322 @@
+2019-06-26 03:05:43.659 INFO  (main) [   ] o.e.j.u.log Logging initialized @439ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-06-26 03:05:43.737 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-06-26 03:05:43.743 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 11.0.3+7-Ubuntu-1ubuntu218.04.1
+2019-06-26 03:05:43.760 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/group13/solr-7.7.2/server/contexts/] at interval 0
+2019-06-26 03:05:43.909 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-06-26 03:05:43.915 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-06-26 03:05:43.915 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-06-26 03:05:43.916 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2019-06-26 03:05:43.960 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-06-26 03:05:43.963 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.7.2
+2019-06-26 03:05:43.963 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-06-26 03:05:43.963 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/group13/solr-7.7.2
+2019-06-26 03:05:43.964 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-06-26T03:05:43.964038Z
+2019-06-26 03:05:43.990 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/group13/solr-7.7.2/server/solr
+2019-06-26 03:05:43.994 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/group13/solr-7.7.2/server/solr/solr.xml
+2019-06-26 03:05:44.030 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@74751b3, but no JMX reporters were configured - adding default JMX reporter.
+2019-06-26 03:05:44.310 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-06-26 03:05:44.516 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-06-26 03:05:44.517 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-06-26 03:05:44.583 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@74751b3
+2019-06-26 03:05:44.583 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@74751b3
+2019-06-26 03:05:44.589 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@74751b3
+2019-06-26 03:05:44.624 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /home/group13/solr-7.7.2/server/solr
+2019-06-26 03:05:44.625 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [demo]
+2019-06-26 03:05:44.698 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@7e5d9a50{/solr,file:///home/group13/solr-7.7.2/server/solr-webapp/webapp/,AVAILABLE}{/home/group13/solr-7.7.2/server/solr-webapp/webapp}
+2019-06-26 03:05:44.701 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.c.SolrResourceLoader [demo] Added 58 libs to classloader, from paths: [/home/group13/solr-7.7.2/contrib/clustering/lib, /home/group13/solr-7.7.2/contrib/extraction/lib, /home/group13/solr-7.7.2/contrib/langid/lib, /home/group13/solr-7.7.2/contrib/velocity/lib, /home/group13/solr-7.7.2/dist]
+2019-06-26 03:05:44.707 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@14dc3f89{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-06-26 03:05:44.708 INFO  (main) [   ] o.e.j.s.Server Started @1488ms
+2019-06-26 03:05:44.765 INFO  (qtp1991278377-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=15
+2019-06-26 03:05:44.837 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.2
+2019-06-26 03:05:44.921 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.s.IndexSchema [demo] Schema name=default-config
+2019-06-26 03:05:45.208 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-06-26 03:05:45.225 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.c.CoreContainer Creating SolrCore 'demo' using configuration from instancedir /home/group13/solr-7.7.2/server/solr/demo, trusted=true
+2019-06-26 03:05:45.231 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.demo' (registry 'solr.core.demo') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@74751b3
+2019-06-26 03:05:45.239 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.c.SolrCore [[demo] ] Opening new SolrCore at [/home/group13/solr-7.7.2/server/solr/demo], dataDir=[/home/group13/solr-7.7.2/server/solr/demo/data/]
+2019-06-26 03:05:45.258 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-06-26 03:05:45.502 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-06-26 03:05:45.502 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-06-26 03:05:45.509 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-06-26 03:05:45.509 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-06-26 03:05:45.547 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.s.SolrIndexSearcher Opening [Searcher@4b41cbb2[demo] main]
+2019-06-26 03:05:45.555 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/group13/solr-7.7.2/server/solr/demo/conf
+2019-06-26 03:05:45.566 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-06-26 03:05:45.571 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-06-26 03:05:45.579 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-06-26 03:05:45.582 INFO  (coreLoadExecutor-9-thread-1) [   x:demo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1637370660736991232
+2019-06-26 03:05:45.584 INFO  (searcherExecutor-10-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4b41cbb2[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-26 03:05:45.585 INFO  (searcherExecutor-10-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-06-26 03:05:45.585 INFO  (searcherExecutor-10-thread-1-processing-x:demo) [   x:demo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-06-26 03:05:45.588 INFO  (searcherExecutor-10-thread-1-processing-x:demo) [   x:demo] o.a.s.c.SolrCore [demo] Registered new searcher Searcher@4b41cbb2[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-26 03:05:52.627 INFO  (qtp1991278377-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:05:54.362 INFO  (qtp1991278377-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=1
+2019-06-26 03:05:54.382 INFO  (qtp1991278377-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1561515629470} status=0 QTime=4
+2019-06-26 03:05:54.390 INFO  (qtp1991278377-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=19
+2019-06-26 03:05:54.419 INFO  (qtp1991278377-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:05:54.428 INFO  (qtp1991278377-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=5
+2019-06-26 03:05:54.436 INFO  (qtp1991278377-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:05:56.576 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.SolrResourceLoader [demo] Added 58 libs to classloader, from paths: [/home/group13/solr-7.7.2/contrib/clustering/lib, /home/group13/solr-7.7.2/contrib/extraction/lib, /home/group13/solr-7.7.2/contrib/langid/lib, /home/group13/solr-7.7.2/contrib/velocity/lib, /home/group13/solr-7.7.2/dist]
+2019-06-26 03:05:56.590 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.2
+2019-06-26 03:05:56.624 INFO  (qtp1991278377-24) [   x:demo] o.a.s.s.IndexSchema [demo] Schema name=default-config
+2019-06-26 03:05:56.728 INFO  (qtp1991278377-24) [   x:demo] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-06-26 03:05:56.739 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.CoreContainer Reloading SolrCore 'demo' using configuration from instancedir /home/group13/solr-7.7.2/server/solr/demo
+2019-06-26 03:05:56.756 INFO  (qtp1991278377-24) [   x:demo] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.demo' (registry 'solr.core.demo') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@74751b3
+2019-06-26 03:05:56.756 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.SolrCore [[demo] ] Opening new SolrCore at [/home/group13/solr-7.7.2/server/solr/demo], dataDir=[/home/group13/solr-7.7.2/server/solr/demo/data/]
+2019-06-26 03:05:56.759 INFO  (qtp1991278377-24) [   x:demo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-06-26 03:05:56.780 INFO  (qtp1991278377-24) [   x:demo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-06-26 03:05:56.780 INFO  (qtp1991278377-24) [   x:demo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-06-26 03:05:56.782 INFO  (qtp1991278377-24) [   x:demo] o.a.s.s.SolrIndexSearcher Opening [Searcher@55886e50[demo] main]
+2019-06-26 03:05:56.782 INFO  (qtp1991278377-24) [   x:demo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/group13/solr-7.7.2/server/solr/demo/conf
+2019-06-26 03:05:56.782 INFO  (qtp1991278377-24) [   x:demo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-06-26 03:05:56.782 INFO  (qtp1991278377-24) [   x:demo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-06-26 03:05:56.783 INFO  (qtp1991278377-24) [   x:demo] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-06-26 03:05:56.783 INFO  (qtp1991278377-24) [   x:demo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1637370672482091008
+2019-06-26 03:05:56.785 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@55886e50[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-26 03:05:56.785 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-06-26 03:05:56.785 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-06-26 03:05:56.790 INFO  (qtp1991278377-24) [   x:demo] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2019-06-26 03:05:56.791 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.c.SolrCore [demo] Registered new searcher Searcher@55886e50[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-26 03:05:56.791 INFO  (qtp1991278377-24) [   x:demo] o.a.s.s.SolrIndexSearcher Opening [Searcher@3fad4f42[demo] main]
+2019-06-26 03:05:56.792 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.SolrCore [demo]  CLOSING SolrCore org.apache.solr.core.SolrCore@55b64d21
+2019-06-26 03:05:56.792 INFO  (qtp1991278377-24) [   x:demo] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.demo, tag=55b64d21
+2019-06-26 03:05:56.792 INFO  (qtp1991278377-24) [   x:demo] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@35cba63d: rootName = null, domain = solr.core.demo, service url = null, agent id = null] for registry solr.core.demo / com.codahale.metrics.MetricRegistry@83a28be
+2019-06-26 03:05:56.792 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3fad4f42[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-26 03:05:56.792 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-06-26 03:05:56.795 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.c.SolrCore [demo] Registered new searcher Searcher@3fad4f42[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-26 03:05:56.798 INFO  (qtp1991278377-24) [   x:demo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=demo&action=RELOAD&wt=json&_=1561515629470} status=0 QTime=234
+2019-06-26 03:05:57.864 INFO  (qtp1991278377-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:05:57.869 INFO  (qtp1991278377-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:05:57.881 INFO  (qtp1991278377-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=16
+2019-06-26 03:06:02.541 INFO  (qtp1991278377-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:06:02.547 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1561516837746} status=0 QTime=2
+2019-06-26 03:06:02.549 INFO  (qtp1991278377-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=7
+2019-06-26 03:06:02.551 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/replication params={wt=json&command=details&_=1561516837746} status=0 QTime=1
+2019-06-26 03:06:02.555 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/system params={wt=json&_=1561516837746} status=0 QTime=4
+2019-06-26 03:06:02.557 INFO  (qtp1991278377-19) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1561515629471&ts=1561515629471} status=503 QTime=0
+2019-06-26 03:06:03.681 INFO  (qtp1991278377-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:06:03.687 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1561516837746} status=0 QTime=3
+2019-06-26 03:06:03.687 INFO  (qtp1991278377-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=6
+2019-06-26 03:06:21.953 INFO  (qtp1991278377-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:06:21.963 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1561516837746} status=0 QTime=2
+2019-06-26 03:06:21.965 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /analysis/field,class = solr.FieldAnalysisRequestHandler,attributes = {class=solr.FieldAnalysisRequestHandler, startup=lazy, useParams=_ANALYSIS_FIELD, name=/analysis/field},args = {startup=lazy,useParams=_ANALYSIS_FIELD}} 
+2019-06-26 03:06:21.966 INFO  (qtp1991278377-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=6
+2019-06-26 03:06:22.121 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/analysis/field params={analysis.fieldvalue=今天天氣很好&analysis.fieldname=title&analysis.showmatch=true&verbose_output=1&wt=json&_=1561516839881} status=0 QTime=155
+2019-06-26 03:06:48.259 INFO  (qtp1991278377-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:06:48.261 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1561516837746} status=0 QTime=2
+2019-06-26 03:06:48.263 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/config params={wt=json&_=1561518406697} status=0 QTime=3
+2019-06-26 03:06:48.266 INFO  (qtp1991278377-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=8
+2019-06-26 03:06:48.319 INFO  (qtp1991278377-23) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1561516837746} status=0 QTime=0
+2019-06-26 03:08:28.455 INFO  (qtp1991278377-42) [   x:demo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/group13/solr-7.7.2/server/solr/demo/conf/managed-schema
+2019-06-26 03:08:32.269 INFO  (qtp1991278377-42) [   x:demo] o.a.s.u.p.LogUpdateProcessorFactory [demo]  webapp=/solr path=/update params={}{add=[a0d83761-09d6-479a-8aba-ef4f7887f6bc (1637370831566798848), b28845bd-b976-4424-bdb1-29216f538ad1 (1637370831596158976), 013b71f2-d429-4bdb-932c-306473199ac6 (1637370831596158977), a46b76b8-ece8-47a8-8ff9-737e3f396caa (1637370831597207552), f6945ebc-0cba-4082-bbc3-fc3545f3564f (1637370831598256128), e3c05756-28d2-4e9a-ad1c-1f2cfe3eed8f (1637370831599304704), fa97d099-9aed-4004-9467-0d5a171df044 (1637370831599304705), c844d1bf-cfcb-4c5f-86fc-88656dea054e (1637370831600353280), 2496a0c9-4040-4de8-b281-ad98167a04e9 (1637370831600353281), 81e4f086-ebce-47a3-b610-020da3c97e55 (1637370831601401856), ... (100000 adds)]} 0 3896
+2019-06-26 03:08:32.273 INFO  (qtp1991278377-17) [   x:demo] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1637370835525173248,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-06-26 03:08:32.273 INFO  (qtp1991278377-17) [   x:demo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1fd5a03 commitCommandVersion:1637370835525173248
+2019-06-26 03:08:34.497 INFO  (qtp1991278377-17) [   x:demo] o.a.s.s.SolrIndexSearcher Opening [Searcher@7546719e[demo] main]
+2019-06-26 03:08:34.498 INFO  (qtp1991278377-17) [   x:demo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-06-26 03:08:34.498 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7546719e[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.7.2):C100000:[diagnostics={os=Linux, java.vendor=Oracle Corporation, java.version=11.0.3, java.vm.version=11.0.3+7-Ubuntu-1ubuntu218.04.1, lucene.version=7.7.2, os.arch=amd64, java.runtime.version=11.0.3+7-Ubuntu-1ubuntu218.04.1, source=flush, os.version=4.15.0-47-generic, timestamp=1561518513646}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-06-26 03:08:34.498 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-06-26 03:08:34.499 INFO  (searcherExecutor-15-thread-1-processing-x:demo) [   x:demo] o.a.s.c.SolrCore [demo] Registered new searcher Searcher@7546719e[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.7.2):C100000:[diagnostics={os=Linux, java.vendor=Oracle Corporation, java.version=11.0.3, java.vm.version=11.0.3+7-Ubuntu-1ubuntu218.04.1, lucene.version=7.7.2, os.arch=amd64, java.runtime.version=11.0.3+7-Ubuntu-1ubuntu218.04.1, source=flush, os.version=4.15.0-47-generic, timestamp=1561518513646}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-06-26 03:08:34.500 INFO  (qtp1991278377-17) [   x:demo] o.a.s.u.p.LogUpdateProcessorFactory [demo]  webapp=/solr path=/update params={commit=true}{commit=} 0 2227
+2019-06-26 03:08:42.212 INFO  (qtp1991278377-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:08:42.220 INFO  (qtp1991278377-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=6
+2019-06-26 03:08:44.735 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=*:*&_=1561518520641} hits=100000 status=0 QTime=25
+2019-06-26 03:08:54.008 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=*蔡英文*&_=1561518520641} hits=0 status=0 QTime=18
+2019-06-26 03:09:00.595 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=蔡英文&_=1561518520641} hits=0 status=0 QTime=13
+2019-06-26 03:09:03.925 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=蔡英文&debugQuery=on&_=1561518520641} hits=0 status=0 QTime=1
+2019-06-26 03:09:12.034 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=蔡英文&df=title&debugQuery=on&_=1561518520641} hits=1250 status=0 QTime=17
+2019-06-26 03:09:21.372 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=台北市長選舉&df=title&debugQuery=on&_=1561518520641} hits=6435 status=0 QTime=14
+2019-06-26 03:09:43.052 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=丁守中參選台北市長&df=title&debugQuery=on&_=1561518520641} hits=11890 status=0 QTime=14
+2019-06-26 03:13:12.625 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:蔡英文&wt=json} hits=1250 status=0 QTime=0
+2019-06-26 03:13:57.977 INFO  (qtp1991278377-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 03:13:57.981 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1561516837746} status=0 QTime=1
+2019-06-26 03:13:57.982 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/config params={wt=json&_=1561518406697} status=0 QTime=0
+2019-06-26 03:13:57.983 INFO  (qtp1991278377-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=6
+2019-06-26 03:13:58.026 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1561516837746} status=0 QTime=1
+2019-06-26 05:02:44.577 INFO  (qtp1991278377-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561525366730} status=0 QTime=0
+2019-06-26 05:02:44.591 INFO  (qtp1991278377-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561525366731} status=0 QTime=13
+2019-06-26 05:02:44.603 INFO  (qtp1991278377-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561525366731} status=0 QTime=6
+2019-06-26 05:05:46.931 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:testing&wt=json} hits=0 status=0 QTime=1
+2019-06-26 05:06:09.831 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:testing&wt=json} hits=0 status=0 QTime=0
+2019-06-26 05:06:26.720 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:knife&wt=json} hits=0 status=0 QTime=1
+2019-06-26 05:07:29.125 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:good&wt=json} hits=0 status=0 QTime=0
+2019-06-26 05:09:11.801 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=2
+2019-06-26 06:34:17.526 INFO  (qtp1991278377-23) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=1
+2019-06-26 06:35:33.772 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 06:35:40.681 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=1
+2019-06-26 06:36:56.702 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 06:43:03.710 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:test&wt=json} hits=0 status=0 QTime=1
+2019-06-26 06:43:07.242 INFO  (qtp1991278377-23) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:test&wt=json} hits=0 status=0 QTime=0
+2019-06-26 06:43:24.523 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:test&wt=json} hits=0 status=0 QTime=0
+2019-06-26 06:43:30.793 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 06:44:12.300 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 06:44:41.178 INFO  (qtp1991278377-23) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:test&wt=json} hits=0 status=0 QTime=0
+2019-06-26 06:45:32.541 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:test&wt=json} hits=0 status=0 QTime=0
+2019-06-26 06:47:45.940 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:test&wt=json} hits=0 status=0 QTime=0
+2019-06-26 06:47:49.037 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 06:50:03.565 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 06:50:53.668 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 06:51:05.108 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=1
+2019-06-26 06:51:17.838 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 06:52:03.700 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 06:59:28.652 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 07:04:31.502 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 07:05:11.477 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 07:05:30.310 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=1
+2019-06-26 07:10:42.788 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 07:12:32.176 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 07:12:41.876 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:媽&wt=json} hits=463 status=0 QTime=1
+2019-06-26 08:28:37.133 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:媽&wt=json} hits=463 status=0 QTime=0
+2019-06-26 08:29:16.041 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:媽&wt=json} hits=463 status=0 QTime=0
+2019-06-26 08:29:41.483 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:媽&wt=json} hits=463 status=0 QTime=0
+2019-06-26 08:30:00.067 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:媽&wt=json} hits=463 status=0 QTime=0
+2019-06-26 08:39:33.687 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:40:30.500 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:40:50.983 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:41:03.649 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:47:17.311 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:50:35.982 INFO  (qtp1991278377-23) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:50:41.593 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:50:58.038 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:隨便&wt=json} hits=267 status=0 QTime=2
+2019-06-26 08:52:49.844 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:52:56.878 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:媽&wt=json} hits=463 status=0 QTime=0
+2019-06-26 08:53:01.310 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:隨便&wt=json} hits=267 status=0 QTime=0
+2019-06-26 08:55:32.970 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:56:06.899 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:56:29.672 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:57:42.868 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:韓&wt=json} hits=817 status=0 QTime=0
+2019-06-26 08:57:57.655 INFO  (qtp1991278377-23) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:媽&wt=json} hits=463 status=0 QTime=0
+2019-06-26 08:59:17.525 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:期末好煩&wt=json} hits=1427 status=0 QTime=3
+2019-06-26 08:59:32.582 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:隨便&wt=json} hits=267 status=0 QTime=0
+2019-06-26 08:59:37.182 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:哈哈&wt=json} hits=7 status=0 QTime=1
+2019-06-26 09:03:37.198 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:哈哈&wt=json} hits=7 status=0 QTime=0
+2019-06-26 09:03:38.916 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:哈哈&wt=json} hits=7 status=0 QTime=0
+2019-06-26 09:03:42.853 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:爛&wt=json} hits=165 status=0 QTime=1
+2019-06-26 09:03:49.913 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:期末大爆炸&wt=json} hits=9177 status=0 QTime=5
+2019-06-26 09:04:09.784 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:期末大爆炸&wt=json} hits=9177 status=0 QTime=0
+2019-06-26 09:05:02.274 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:期末大爆炸&wt=json} hits=9177 status=0 QTime=1
+2019-06-26 09:05:07.828 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:期末好煩&wt=json} hits=1427 status=0 QTime=0
+2019-06-26 09:05:40.658 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:期末大爆炸&wt=json} hits=9177 status=0 QTime=1
+2019-06-26 09:06:05.982 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:期末大爆炸&wt=json} hits=9177 status=0 QTime=0
+2019-06-26 09:06:42.321 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:和和&wt=json} hits=611 status=0 QTime=0
+2019-06-26 11:51:15.510 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:如何戴隱眼&wt=json} hits=811 status=0 QTime=19
+2019-06-26 11:55:38.195 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:期末好煩&wt=json} hits=1427 status=0 QTime=1
+2019-06-26 17:12:48.192 ERROR (qtp1991278377-51) [   x:demo] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'title:': Encountered "<EOF>" at line 1, column 6.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2551)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'title:': Encountered "<EOF>" at line 1, column 6.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 36 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 6.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 39 more
+
+2019-06-26 17:12:48.222 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:&wt=json} status=400 QTime=64
+2019-06-26 17:24:49.260 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:衣服&wt=json} hits=9 status=0 QTime=38
+2019-06-26 17:27:13.458 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:期末好煩&wt=json} hits=1427 status=0 QTime=1
+2019-06-26 18:28:04.376 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台北&wt=json} hits=1960 status=0 QTime=2
+2019-06-26 18:28:19.838 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台北+晚餐&wt=json} hits=1960 status=0 QTime=9
+2019-06-26 18:28:24.188 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台北+晚餐&wt=json} hits=1960 status=0 QTime=17
+2019-06-26 18:28:30.147 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台北晚餐&wt=json} hits=1970 status=0 QTime=24
+2019-06-26 18:28:50.316 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台北燒烤&wt=json} hits=2407 status=0 QTime=3
+2019-06-26 18:29:39.525 INFO  (qtp1991278377-42) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台北&wt=json} hits=1960 status=0 QTime=0
+2019-06-26 18:36:17.485 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台北&wt=json} hits=1960 status=0 QTime=1
+2019-06-26 18:36:27.594 INFO  (qtp1991278377-17) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:柯文哲&wt=json} hits=3045 status=0 QTime=2
+2019-06-26 18:39:10.296 INFO  (qtp1991278377-23) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:蔡英文&wt=json} hits=1250 status=0 QTime=0
+2019-06-26 18:39:18.483 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:柯文哲&wt=json} hits=3045 status=0 QTime=1
+2019-06-26 18:40:46.766 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:柯文哲&wt=json} hits=3045 status=0 QTime=1
+2019-06-27 01:05:59.375 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台灣&wt=json} hits=8307 status=0 QTime=28
+2019-06-27 01:06:31.327 INFO  (qtp1991278377-24) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:政大&wt=json} hits=10423 status=0 QTime=22
+2019-06-27 01:06:42.321 INFO  (qtp1991278377-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:not&wt=json} hits=0 status=0 QTime=1
+2019-06-27 01:06:56.061 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:蘋果&wt=json} hits=1254 status=0 QTime=3
+2019-06-27 01:07:03.932 INFO  (qtp1991278377-16) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:蘋果電腦&wt=json} hits=4697 status=0 QTime=12
+2019-06-27 01:07:13.753 INFO  (qtp1991278377-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:apple&wt=json} hits=3 status=0 QTime=7
+2019-06-27 01:07:21.954 INFO  (qtp1991278377-51) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台積電&wt=json} hits=10955 status=0 QTime=3
+2019-06-27 01:08:46.852 INFO  (qtp1991278377-57) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:台灣大學&wt=json} hits=19761 status=0 QTime=4
+2019-06-27 01:17:48.988 INFO  (qtp1991278377-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/select params={q=title:娃怕你們不&wt=json} hits=7904 status=0 QTime=21

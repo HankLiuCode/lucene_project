@@ -1,0 +1,671 @@
+2019-06-26 02:20:19.374 INFO  (main) [   ] o.e.j.u.log Logging initialized @484ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-06-26 02:20:19.458 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-06-26 02:20:19.462 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 11.0.3+7-Ubuntu-1ubuntu218.04.1
+2019-06-26 02:20:19.474 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/group13/solr-7.7.2/server/contexts/] at interval 0
+2019-06-26 02:20:19.613 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-06-26 02:20:19.619 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-06-26 02:20:19.619 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-06-26 02:20:19.620 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2019-06-26 02:20:19.668 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-06-26 02:20:19.671 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.7.2
+2019-06-26 02:20:19.672 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-06-26 02:20:19.672 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/group13/solr-7.7.2
+2019-06-26 02:20:19.672 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-06-26T02:20:19.672486Z
+2019-06-26 02:20:19.699 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/group13/solr-7.7.2/server/solr
+2019-06-26 02:20:19.703 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/group13/solr-7.7.2/server/solr/solr.xml
+2019-06-26 02:20:19.736 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@56cdfb3b, but no JMX reporters were configured - adding default JMX reporter.
+2019-06-26 02:20:20.031 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-06-26 02:20:20.262 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-06-26 02:20:20.263 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-06-26 02:20:20.339 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@56cdfb3b
+2019-06-26 02:20:20.340 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@56cdfb3b
+2019-06-26 02:20:20.345 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@56cdfb3b
+2019-06-26 02:20:20.361 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /home/group13/solr-7.7.2/server/solr
+2019-06-26 02:20:20.402 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@65fe9e33{/solr,file:///home/group13/solr-7.7.2/server/solr-webapp/webapp/,AVAILABLE}{/home/group13/solr-7.7.2/server/solr-webapp/webapp}
+2019-06-26 02:20:20.409 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@7a1f8def{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-06-26 02:20:20.410 INFO  (main) [   ] o.e.j.s.Server Started @1522ms
+2019-06-26 02:20:31.228 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=27
+2019-06-26 02:20:31.239 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=38
+2019-06-26 02:20:31.251 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=3
+2019-06-26 02:20:33.748 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:20:33.756 INFO  (qtp1752461090-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:20:33.760 INFO  (qtp1752461090-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=11
+2019-06-26 02:20:57.891 INFO  (qtp1752461090-21) [   x:demo] o.a.s.h.a.CoreAdminOperation core create command schema=schema.xml&dataDir=data&name=demo&action=CREATE&config=solrconfig.xml&instanceDir=demo&wt=json&_=1561515629470
+2019-06-26 02:20:57.896 ERROR (qtp1752461090-21) [   x:demo] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Error CREATEing SolrCore 'demo': Unable to create core [demo] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/home/group13/solr-7.7.2/server/solr/demo'
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:1136)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$0(CoreAdminOperation.java:92)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:360)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:396)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:180)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:736)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:717)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:496)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [demo]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1208)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:1097)
+	... 44 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core demo: Error loading solr config from /home/group13/solr-7.7.2/server/solr/demo/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1236)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1183)
+	... 45 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from /home/group13/solr-7.7.2/server/solr/demo/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:190)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:109)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:91)
+	... 47 more
+Caused by: org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'solrconfig.xml' in classpath or '/home/group13/solr-7.7.2/server/solr/demo'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:407)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:362)
+	at org.apache.solr.core.Config.<init>(Config.java:120)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:205)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:182)
+	... 49 more
+
+2019-06-26 02:20:57.897 INFO  (qtp1752461090-21) [   x:demo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=demo&action=CREATE&config=solrconfig.xml&instanceDir=demo&wt=json&_=1561515629470} status=400 QTime=9
+2019-06-26 02:21:39.146 INFO  (qtp1752461090-22) [   x:demo] o.a.s.h.a.CoreAdminOperation core create command schema=schema.xml&dataDir=data&name=demo&action=CREATE&config=solrconfig.xml&instanceDir=demo&wt=json&_=1561515629470
+2019-06-26 02:21:39.149 ERROR (qtp1752461090-22) [   x:demo] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Error CREATEing SolrCore 'demo': Unable to create core [demo] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/home/group13/solr-7.7.2/server/solr/demo'
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:1136)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$0(CoreAdminOperation.java:92)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:360)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:396)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:180)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:736)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:717)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:496)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [demo]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1208)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:1097)
+	... 44 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core demo: Error loading solr config from /home/group13/solr-7.7.2/server/solr/demo/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1236)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1183)
+	... 45 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from /home/group13/solr-7.7.2/server/solr/demo/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:190)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:109)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:91)
+	... 47 more
+Caused by: org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'solrconfig.xml' in classpath or '/home/group13/solr-7.7.2/server/solr/demo'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:407)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:362)
+	at org.apache.solr.core.Config.<init>(Config.java:120)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:205)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:182)
+	... 49 more
+
+2019-06-26 02:21:39.150 INFO  (qtp1752461090-22) [   x:demo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=demo&action=CREATE&config=solrconfig.xml&instanceDir=demo&wt=json&_=1561515629470} status=400 QTime=4
+2019-06-26 02:28:59.909 INFO  (qtp1752461090-19) [   x:demo] o.a.s.h.a.CoreAdminOperation core create command schema=schema.xml&dataDir=data&name=demo&action=CREATE&config=solrconfig.xml&instanceDir=demo&wt=json&_=1561515629470
+2019-06-26 02:28:59.959 INFO  (qtp1752461090-19) [   x:demo] o.a.s.c.SolrResourceLoader [demo] Added 58 libs to classloader, from paths: [/home/group13/solr-7.7.2/contrib/clustering/lib, /home/group13/solr-7.7.2/contrib/extraction/lib, /home/group13/solr-7.7.2/contrib/langid/lib, /home/group13/solr-7.7.2/contrib/velocity/lib, /home/group13/solr-7.7.2/dist]
+2019-06-26 02:29:00.053 INFO  (qtp1752461090-19) [   x:demo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.2
+2019-06-26 02:29:00.160 INFO  (qtp1752461090-19) [   x:demo] o.a.s.s.IndexSchema [demo] Schema name=default-config
+2019-06-26 02:29:00.432 INFO  (qtp1752461090-19) [   x:demo] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-06-26 02:29:00.460 INFO  (qtp1752461090-19) [   x:demo] o.a.s.c.CoreContainer Creating SolrCore 'demo' using configuration from instancedir /home/group13/solr-7.7.2/server/solr/demo, trusted=true
+2019-06-26 02:29:00.465 INFO  (qtp1752461090-19) [   x:demo] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.demo' (registry 'solr.core.demo') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@56cdfb3b
+2019-06-26 02:29:00.474 INFO  (qtp1752461090-19) [   x:demo] o.a.s.c.SolrCore [[demo] ] Opening new SolrCore at [/home/group13/solr-7.7.2/server/solr/demo], dataDir=[/home/group13/solr-7.7.2/server/solr/demo/data/]
+2019-06-26 02:29:00.641 INFO  (qtp1752461090-19) [   x:demo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-06-26 02:29:00.913 INFO  (qtp1752461090-19) [   x:demo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-06-26 02:29:00.913 INFO  (qtp1752461090-19) [   x:demo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-06-26 02:29:00.920 INFO  (qtp1752461090-19) [   x:demo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-06-26 02:29:00.920 INFO  (qtp1752461090-19) [   x:demo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-06-26 02:29:00.930 INFO  (qtp1752461090-19) [   x:demo] o.a.s.s.SolrIndexSearcher Opening [Searcher@2a81c737[demo] main]
+2019-06-26 02:29:00.952 INFO  (qtp1752461090-19) [   x:demo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/group13/solr-7.7.2/server/solr/demo/conf
+2019-06-26 02:29:00.963 INFO  (qtp1752461090-19) [   x:demo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-06-26 02:29:00.967 INFO  (qtp1752461090-19) [   x:demo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-06-26 02:29:00.974 INFO  (qtp1752461090-19) [   x:demo] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-06-26 02:29:00.977 INFO  (qtp1752461090-19) [   x:demo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1637368349041098752
+2019-06-26 02:29:00.980 INFO  (searcherExecutor-10-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2a81c737[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-26 02:29:00.980 INFO  (searcherExecutor-10-thread-1-processing-x:demo) [   x:demo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-06-26 02:29:00.980 INFO  (searcherExecutor-10-thread-1-processing-x:demo) [   x:demo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-06-26 02:29:00.982 INFO  (qtp1752461090-19) [   x:demo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=demo&action=CREATE&config=solrconfig.xml&instanceDir=demo&wt=json&_=1561515629470} status=0 QTime=1073
+2019-06-26 02:29:00.985 INFO  (searcherExecutor-10-thread-1-processing-x:demo) [   x:demo] o.a.s.c.SolrCore [demo] Registered new searcher Searcher@2a81c737[demo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-26 02:29:01.016 INFO  (qtp1752461090-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:29:01.028 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=5
+2019-06-26 02:29:01.036 INFO  (qtp1752461090-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1561515629470} status=0 QTime=1
+2019-06-26 02:38:44.527 INFO  (qtp1752461090-21) [   x:demo] o.a.s.c.SolrResourceLoader [demo] Added 58 libs to classloader, from paths: [/home/group13/solr-7.7.2/contrib/clustering/lib, /home/group13/solr-7.7.2/contrib/extraction/lib, /home/group13/solr-7.7.2/contrib/langid/lib, /home/group13/solr-7.7.2/contrib/velocity/lib, /home/group13/solr-7.7.2/dist]
+2019-06-26 02:38:44.547 INFO  (qtp1752461090-21) [   x:demo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.2
+2019-06-26 02:38:44.570 INFO  (qtp1752461090-21) [   x:demo] o.a.s.s.IndexSchema [demo] Schema name=default-config
+2019-06-26 02:38:44.582 ERROR (qtp1752461090-21) [   x:demo] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Unable to reload core [demo]
+	at org.apache.solr.core.CoreContainer.reload(CoreContainer.java:1472)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$2(CoreAdminOperation.java:131)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:360)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:396)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:180)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:736)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:717)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:496)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core demo: Can't load schema /home/group13/solr-7.7.2/server/solr/demo/conf/managed-schema: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.reload(CoreContainer.java:1446)
+	... 39 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /home/group13/solr-7.7.2/server/solr/demo/conf/managed-schema: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:590)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:180)
+	at org.apache.solr.schema.ManagedIndexSchema.<init>(ManagedIndexSchema.java:105)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:173)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:45)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 40 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:481)
+	... 47 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:376)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:95)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:53)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 48 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:557)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:626)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:356)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:349)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 52 more
+Caused by: java.lang.ClassNotFoundException: org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:899)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:541)
+	... 56 more
+
+2019-06-26 02:38:44.583 INFO  (qtp1752461090-21) [   x:demo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=demo&action=RELOAD&wt=json&_=1561515629470} status=500 QTime=67
+2019-06-26 02:38:44.583 ERROR (qtp1752461090-21) [   x:demo] o.a.s.s.HttpSolrCall null:org.apache.solr.common.SolrException: Unable to reload core [demo]
+	at org.apache.solr.core.CoreContainer.reload(CoreContainer.java:1472)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$2(CoreAdminOperation.java:131)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:360)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:396)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:180)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:736)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:717)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:496)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core demo: Can't load schema /home/group13/solr-7.7.2/server/solr/demo/conf/managed-schema: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.reload(CoreContainer.java:1446)
+	... 39 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /home/group13/solr-7.7.2/server/solr/demo/conf/managed-schema: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:590)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:180)
+	at org.apache.solr.schema.ManagedIndexSchema.<init>(ManagedIndexSchema.java:105)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:173)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:45)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 40 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:481)
+	... 47 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:376)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:95)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:53)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 48 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:557)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:626)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:356)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:349)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 52 more
+Caused by: java.lang.ClassNotFoundException: org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:899)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:541)
+	... 56 more
+
+2019-06-26 02:38:45.618 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:38:45.622 INFO  (qtp1752461090-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:38:45.627 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=4
+2019-06-26 02:40:39.396 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:40:39.401 INFO  (qtp1752461090-22) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1561516837746} status=0 QTime=3
+2019-06-26 02:40:39.403 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=6
+2019-06-26 02:40:39.406 INFO  (qtp1752461090-23) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/replication params={wt=json&command=details&_=1561516837746} status=0 QTime=1
+2019-06-26 02:40:39.406 INFO  (qtp1752461090-21) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1561515629471&ts=1561515629471} status=503 QTime=0
+2019-06-26 02:40:39.410 INFO  (qtp1752461090-15) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/system params={wt=json&_=1561516837746} status=0 QTime=4
+2019-06-26 02:40:41.530 INFO  (qtp1752461090-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:40:41.535 INFO  (qtp1752461090-20) [   x:demo] o.a.s.c.S.Request [demo]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1561516837746} status=0 QTime=2
+2019-06-26 02:40:41.536 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=6
+2019-06-26 02:45:29.240 INFO  (qtp1752461090-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:45:29.243 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:45:29.247 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=6
+2019-06-26 02:45:29.281 INFO  (qtp1752461090-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:45:29.289 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:45:29.290 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=6
+2019-06-26 02:45:36.412 INFO  (qtp1752461090-24) [   x:demo] o.a.s.c.SolrResourceLoader [demo] Added 58 libs to classloader, from paths: [/home/group13/solr-7.7.2/contrib/clustering/lib, /home/group13/solr-7.7.2/contrib/extraction/lib, /home/group13/solr-7.7.2/contrib/langid/lib, /home/group13/solr-7.7.2/contrib/velocity/lib, /home/group13/solr-7.7.2/dist]
+2019-06-26 02:45:36.438 INFO  (qtp1752461090-24) [   x:demo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.2
+2019-06-26 02:45:36.455 INFO  (qtp1752461090-24) [   x:demo] o.a.s.s.IndexSchema [demo] Schema name=default-config
+2019-06-26 02:45:36.467 ERROR (qtp1752461090-24) [   x:demo] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Unable to reload core [demo]
+	at org.apache.solr.core.CoreContainer.reload(CoreContainer.java:1472)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$2(CoreAdminOperation.java:131)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:360)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:396)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:180)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:736)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:717)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:496)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core demo: Can't load schema /home/group13/solr-7.7.2/server/solr/demo/conf/managed-schema: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.reload(CoreContainer.java:1446)
+	... 44 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /home/group13/solr-7.7.2/server/solr/demo/conf/managed-schema: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:590)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:180)
+	at org.apache.solr.schema.ManagedIndexSchema.<init>(ManagedIndexSchema.java:105)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:173)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:45)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 45 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:481)
+	... 52 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:376)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:95)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:53)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 53 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:557)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:626)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:356)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:349)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 57 more
+Caused by: java.lang.ClassNotFoundException: org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:899)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:541)
+	... 61 more
+
+2019-06-26 02:45:36.467 INFO  (qtp1752461090-24) [   x:demo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=demo&action=RELOAD&wt=json&_=1561515629470} status=500 QTime=64
+2019-06-26 02:45:36.468 ERROR (qtp1752461090-24) [   x:demo] o.a.s.s.HttpSolrCall null:org.apache.solr.common.SolrException: Unable to reload core [demo]
+	at org.apache.solr.core.CoreContainer.reload(CoreContainer.java:1472)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$2(CoreAdminOperation.java:131)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:360)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:396)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:180)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:736)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:717)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:496)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:395)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:341)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core demo: Can't load schema /home/group13/solr-7.7.2/server/solr/demo/conf/managed-schema: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.reload(CoreContainer.java:1446)
+	... 44 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /home/group13/solr-7.7.2/server/solr/demo/conf/managed-schema: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:590)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:180)
+	at org.apache.solr.schema.ManagedIndexSchema.<init>(ManagedIndexSchema.java:105)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:173)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:45)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 45 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "text_hmm_chinese": Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:481)
+	... 52 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] analyzer/tokenizer: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:376)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:95)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:53)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 53 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:557)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:626)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:356)
+	at org.apache.solr.schema.FieldTypePluginLoader$2.create(FieldTypePluginLoader.java:349)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 57 more
+Caused by: java.lang.ClassNotFoundException: org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:899)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:541)
+	... 61 more
+
+2019-06-26 02:45:37.501 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:45:37.503 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:45:37.509 INFO  (qtp1752461090-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=8
+2019-06-26 02:48:30.378 INFO  (qtp1752461090-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1561515629470} status=0 QTime=0
+2019-06-26 02:48:30.389 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=2
+2019-06-26 02:48:30.390 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1561515629471} status=0 QTime=9
+2019-06-26 02:48:40.371 INFO  (qtp1752461090-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:48:50.375 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:49:00.374 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:49:10.399 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:49:20.376 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:49:30.385 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:49:40.387 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:49:50.388 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:50:00.389 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:50:10.388 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:50:20.397 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:50:30.399 INFO  (qtp1752461090-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:50:40.401 INFO  (qtp1752461090-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:50:50.402 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:51:01.285 INFO  (qtp1752461090-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:51:11.305 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:51:21.313 INFO  (qtp1752461090-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:51:32.412 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:51:43.288 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:51:54.446 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:52:05.329 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:52:15.344 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:52:26.230 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:52:36.297 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:52:47.330 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:52:57.335 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:53:08.297 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:53:18.318 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:53:29.420 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:53:40.375 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:53:51.253 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:54:01.336 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:54:11.356 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:54:22.301 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:54:32.303 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:54:43.383 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:54:54.259 INFO  (qtp1752461090-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:55:05.363 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:55:16.314 INFO  (qtp1752461090-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:55:26.366 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:55:37.304 INFO  (qtp1752461090-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:55:47.342 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:55:58.180 INFO  (qtp1752461090-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:56:08.253 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:56:19.367 INFO  (qtp1752461090-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:56:30.283 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:56:40.284 INFO  (qtp1752461090-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:56:50.286 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:57:01.345 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:57:12.278 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:57:22.280 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:57:32.320 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:57:42.487 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:57:53.312 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:58:04.397 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:58:15.353 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 02:58:26.054 INFO  (qtp1752461090-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:01:20.393 INFO  (qtp1752461090-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:01:29.747 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:01:39.801 INFO  (qtp1752461090-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:01:49.752 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:01:59.756 INFO  (qtp1752461090-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:02:09.760 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:02:19.766 INFO  (qtp1752461090-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:02:29.775 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:02:39.778 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:02:49.782 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:02:59.781 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:03:09.788 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:03:19.790 INFO  (qtp1752461090-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:03:29.797 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:03:39.798 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:03:49.803 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:03:59.803 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:04:09.810 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:04:19.814 INFO  (qtp1752461090-45) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:04:30.569 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:04:41.613 INFO  (qtp1752461090-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:04:51.620 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:05:01.621 INFO  (qtp1752461090-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:05:11.625 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:05:22.569 INFO  (qtp1752461090-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:05:32.618 INFO  (qtp1752461090-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1561517308732&since=0} status=0 QTime=0
+2019-06-26 03:05:41.077 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@7a1f8def{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-06-26 03:05:41.077 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2019-06-26 03:05:41.079 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1424788681
+2019-06-26 03:05:41.080 INFO  (coreCloseExecutor-15-thread-1) [   x:demo] o.a.s.c.SolrCore [demo]  CLOSING SolrCore org.apache.solr.core.SolrCore@6c3e0997
+2019-06-26 03:05:41.080 INFO  (coreCloseExecutor-15-thread-1) [   x:demo] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.demo, tag=6c3e0997
+2019-06-26 03:05:41.081 INFO  (coreCloseExecutor-15-thread-1) [   x:demo] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@fea24a: rootName = null, domain = solr.core.demo, service url = null, agent id = null] for registry solr.core.demo / com.codahale.metrics.MetricRegistry@225400b1
+2019-06-26 03:05:41.100 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-06-26 03:05:41.101 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@4ed38226: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@6c3793ba
+2019-06-26 03:05:41.103 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-06-26 03:05:41.103 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@42f9c19a: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@5ef40fe9
+2019-06-26 03:05:41.104 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-06-26 03:05:41.104 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@64bfd6fd: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@6d5a92da
+2019-06-26 03:05:41.108 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@65fe9e33{/solr,null,UNAVAILABLE}{/home/group13/solr-7.7.2/server/solr-webapp/webapp}
